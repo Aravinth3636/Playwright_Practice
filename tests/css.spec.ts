@@ -7,7 +7,7 @@
 
 test("css selector", async({page})=>{
 
-    await page.goto("https://demowebshop.tricentis.com/");
+   await page.goto("https://demowebshop.tricentis.com/");
 
    const element:Locator =  page.locator(".search-box-text[value='Search store']");
 
