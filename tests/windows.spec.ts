@@ -25,8 +25,4 @@ test("window handling",async()=>{
 
     await expect(page1).toHaveTitle("Google");
     await expect(page2).toHaveTitle("Search - Microsoft Bing");
-
-
-
-
 })
